@@ -1,0 +1,166 @@
+/*#piratitask a {
+     text-decoration:none !important;
+     color:#f00;
+}*/
+#piratitask {
+     border-bottom:solid 1px #ddd;
+}
+#piratitask li.active a {
+     color:#555;
+}
+#piratitask .tooltip-inner {
+     white-space:normal;
+}
+#piratitask .tab-content {
+     overflow:visible;
+}
+#piratitask #issues table tr td:last-child {
+     text-align:right;
+     white-space:nowrap;
+}
+#piratitask .toolbutton img {
+     max-width:none;
+     height:auto;
+/*     vertical-align:baseline; */
+}
+#piratitask #warnlist {
+/*     margin-top:10px; */
+     margin-left:10px;
+     margin-bottom:0px;
+}
+#piratitask #warnlist li {
+     margin-right:10px;
+     margin-top:10px;
+}
+#piratitask .add-on {
+     cursor:pointer;
+}
+#piratitask #datepicker_head,
+#piratitask #datepicker_inner {
+/*     position:absolute; */
+     width:100%;
+}
+#piratitask #alert {
+     display:none;
+}
+#piratitask #success {
+     display:none;
+}
+#piratitask .error {
+     background-color:initial;
+     background-image:none;
+     border:none;
+     padding-left:0px;
+}
+#piratitask .help-inline {
+     display:none;
+}
+
+#piratitask .issueload {
+     font-size:1.5em;
+     text-align:center;
+     padding:10px;
+     background-image:url('/lib/plugins/piratitask/img/loading.gif');
+     background-repeat:no-repeat;
+     background-position:center 5px;
+     padding-top:45px;
+}
+#piratitask .issueempty {
+     font-size:1.5em;
+     text-align:center;
+     padding:10px;
+     background-repeat:no-repeat;
+     background-position:center 5px;
+}
+
+.content a.btn-primary,
+.content a.btn-primary:link,
+#piratitask ul.dropdown-menu li.active a,
+#piratitask ul.dropdown-menu li a:hover {
+     color:#fff !important;
+}
+.content a.btn-primary:hover,
+.content a.btn-primary:active {
+     color: #ffffff;
+     background-color: #0044cc;
+     *background-color: #003bb3;
+}
+
+ul.typehead {
+     margin:0px;
+     padding:0px;
+     list-style:none;
+}
+.typeahead.dropdown-menu {
+     z-index:1051;
+}
+
+#piratitask label.required {
+     color:#c00;
+}
+
+#piratitask #piratitask-content {
+     margin-right:240px;
+}
+#piratitask #piratitask-content h1 {
+     font-size:2em;
+}
+#piratitask #piratitask-info table {
+     font-size:0.7em;
+     margin-top:5px;
+     margin-bottom:0px;
+}
+#piratitask #piratitask-info table th {
+     text-align:right;
+}
+#piratitask #piratitask-info .table-condensed th,
+#piratitask #piratitask-info .table-condensed td {
+     padding-top:2px;
+     padding-bottom:2px;
+}
+#piratitask #piratitask-comments {
+     border-top:solid 1px #ccc;
+     padding-top:10px;
+}
+#piratitask #piratitask-comments textarea {
+     width:40%;
+}
+#piratitask #piratitask-comments dt {
+     font-size:0.8em;
+     margin-bottom:5px;
+}
+#piratitask #piratitask-comments dd {
+     margin-bottom:15px;
+}
+#piratitask-watchers-win ol {
+     height:200px;
+     /*overflow:auto;*/
+}
+#piratitask #piratitask-info .piratitask-dlines {
+     border-top:solid 2px #ccc;
+     border-bottom:solid 2px #ccc;
+}
+#piratitask .filtr-cond {
+     font-size:0.8em;
+}
+
+#piratitask .groupload {
+     background-image:url('/lib/plugins/piratitask/img/loading.gif');
+     background-repeat:no-repeat;
+     background-position:120px 0px;
+}
+
+#piratitask #group_list label.in {
+     font-weight:bold;
+}
+/*#piratitask #group_list {
+     list-style:none;
+}*/
+
+#piratitask #issues table tr .piratitag {
+     padding:0px;
+
+}
+#piratitask #issues table tr .piratitag li {
+     margin-right:5px;
+}
